@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: eureka8761
+  client:
+    register-with-eureka: false                 # 启动时不要通过Eureka服务来进行注册，因为它本身就是Eureka
+    fetch-registry: false                       # 不要在本地缓存注册表信息
+    service-url:
+      defaultZone: http://eureka8762:8762/eureka,http://eureka8763:8763/eureka
+
+  server:
+    enable-self-preservation: false              # 是否开启自我保护机制
+    wait-time-in-ms-when-sync-empty: 5

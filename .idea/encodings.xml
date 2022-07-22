@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/star-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/star-zuul/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

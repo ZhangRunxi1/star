@@ -1,0 +1,8 @@
+# Project exclude paths
+/star-auth/target/
+/star-common/target/
+/star-dashboard/target/
+/star-eureka/target/
+/star-order/target/
+/star-product/target/
+/star-zuul/target/

@@ -1,0 +1,26 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: star-product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///star?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 852000
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update #自动建表，当表不存在时会自动创建，当表存在是自动建表
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+eureka: #注册中心配置
+  instance:
+    prefer-ip-address: true
+  client: #客户端配置
+    register-with-eureka: true #是否注册当前服务
+    fetch-registry: true #是否缓存服务列表
+    service-url:
+      defaultZone: http://localhost:8761/eureka,http://localhost:8762/eureka,http://localhost:8763/eureka #注册中心地址
