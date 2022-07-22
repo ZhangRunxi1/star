@@ -37,6 +37,7 @@ public class OrderApp {
         registrationBean.setLoadOnStartup(1);
         registrationBean.addUrlMappings("/hystrix.stream");
         registrationBean.setName("HystrixMetricsStreamServlet");
+        System.out.println("测试GitHub代码提交registrationBean"+registrationBean);
         return registrationBean;
     }
 }
