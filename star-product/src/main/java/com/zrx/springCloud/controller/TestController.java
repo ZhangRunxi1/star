@@ -29,6 +29,7 @@ public class TestController {
     @PostMapping("/products/lapse")
     public ResultVO lapse() throws InterruptedException {
         TimeUnit.SECONDS.sleep(3);
+        System.out.println("测试代码提交！");
         return ResultVO.success("lapse...", null);
     }
 
